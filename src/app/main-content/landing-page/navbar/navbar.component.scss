@@ -1,0 +1,21 @@
+nav {
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >a {
+        width: 350px;
+        display: flex;
+
+        >p {
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+

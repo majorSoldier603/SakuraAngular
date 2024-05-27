@@ -9,7 +9,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 	imports: [CommonModule, NavbarComponent],
 	template:`
 	<section>
-		<app-navbar></app-navbar>
+		<div>
+			<app-navbar></app-navbar></div>
 		<h1 class="FontRalewayBold ColorWhite">SAKURA RAMEN</h1>
 		<h2 class="FontRalewayRegular ColorWhite">BEST RAMEN IN TOWN</h2>
 	</section>
