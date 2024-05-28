@@ -8,12 +8,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 	standalone: true,
 	imports: [CommonModule, NavbarComponent],
 	template:`
-	<section>
+	<main>
 		<div>
-			<app-navbar></app-navbar></div>
-		<h1 class="FontRalewayBold ColorWhite">SAKURA RAMEN</h1>
-		<h2 class="FontRalewayRegular ColorWhite">BEST RAMEN IN TOWN</h2>
-	</section>
+			<app-navbar></app-navbar>
+		</div>
+		<section>
+			<h1 class="FontRalewayBold ColorWhite">SAKURA RAMEN</h1>
+			<h2 class="FontRalewayRegular ColorWhite">BEST RAMEN IN TOWN</h2>
+		</section>
+	</main>
 	`,
 	styleUrl: './landing-page.component.scss'
 })

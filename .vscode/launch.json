@@ -3,6 +3,21 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"name": "ng serve brave",
+			"type": "chrome",
+			"request": "launch",
+			"preLaunchTask": "npm: start",
+			"url": "http://localhost:4200/",
+			"webRoot": "/snap/brave/current/opt/brave.com/brave/brave"
+		},
+		{
+			"name": "Launch Chrome",
+			"request": "launch",
+			"type": "chrome",
+			"url": "http://localhost:8080",
+			"webRoot": "/snap/brave/current/opt/brave.com/brave/brave"
+		},
+		{
 			"name": "ng serve",
 			"type": "firefox",
 			"request": "launch",

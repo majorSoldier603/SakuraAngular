@@ -9,8 +9,8 @@ import { OurMenuComponent } from './our-menu/our-menu.component';
 	imports: [LandingPageComponent, HowToOrderComponent, OurMenuComponent],
 	template: `
 	<app-landing-page></app-landing-page>
-	<app-how-to-order></app-how-to-order>
-	<app-our-menu></app-our-menu>
+	<app-how-to-order id="how-to-order"></app-how-to-order>
+	<app-our-menu id="menu"></app-our-menu>
 	`,
 	styleUrl: './main-content.component.scss'
 })
