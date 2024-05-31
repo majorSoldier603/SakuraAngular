@@ -1,3 +1,5 @@
+@import './../../../../styles.scss';
+
 footer {
     display: flex;
     align-items: center;
@@ -8,9 +10,10 @@ footer {
     padding-left: 10%;
     padding-right: 10%;
 
-    >h2 {
-        color: white;
+    >a {
+        color: $white;
         font-size: 32px;
+        text-decoration: none;
     }
     
     >div {
@@ -26,6 +29,7 @@ footer {
         }
         
         >h3 {
+            color: white;
             font-size: 32px;
         }
     }
